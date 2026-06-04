@@ -115,7 +115,7 @@ title({'Grasa marcada en rojo', 'capa 3 / anillo exterior'});
 ax2 = gca;
 pos2 = ax2.Position;
 
-escala = 0.90;  % baja a 0.85 si la quieres más pequeña
+escala = 0.90; 
 
 nuevo_ancho = pos1(3) * escala;
 nuevo_alto  = pos1(4) * escala;
