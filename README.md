@@ -6,10 +6,9 @@ El objetivo del trabajo es estudiar distintas estrategias de supresión de grasa
 
 ## Estructura del repositorio
 
-- `codigo/CHESS/`: simulaciones relacionadas con pulsos CHESS y su respuesta espectral.
-- `codigo/STIR/`: simulaciones de recuperación longitudinal y supresión de grasa mediante STIR.
-- `codigo/SPSP/`: diseño y evaluación de pulsos espectral-espaciales mediante la aproximación STA.
-- `codigo/phantom_B0/`: simulaciones sobre phantom digital e incorporación de mapas sintéticos de B0.
+- `Código TFG/Código CHESS/`: simulaciones relacionadas con pulsos CHESS y su respuesta espectral.
+- `Código TFG/Código STIR/`: simulaciones de recuperación longitudinal y supresión de grasa mediante STIR.
+- `Código TFG/Código SPSP/`: diseño y evaluación de pulsos espectral-espaciales mediante la aproximación STA.
 - `documentacion/descripcion_codigos.md`: explicación detallada de cada script.
 
 ## Herramientas utilizadas
