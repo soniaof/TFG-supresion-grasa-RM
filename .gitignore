@@ -1,0 +1,23 @@
+# MATLAB
+*.asv
+*.m~
+*.mex*
+*.fig
+*.mat
+slprj/
+codegen/
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# LaTeX y temporales
+*.aux
+*.log
+*.out
+*.toc
+*.lof
+*.lot
+*.bbl
+*.blg
+*.synctex.gz
