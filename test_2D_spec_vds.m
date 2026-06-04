@@ -89,7 +89,7 @@ title('ROI, Frecuencias de Inclusión');
 % únicamente las bandas de frecuencia del agua (0 Hz) y de la grasa (~−220 Hz).
 % El diseño del pulso se optimiza solo en estas regiones.
 %% Crear matriz de sistema, A, optimizar pulso espectral-espacial
-% para esta parte, tendrías que revisar las secciones 2.2 y 2.3 de la tesis
+% para esta parte, habría que revisar las secciones 2.2 y 2.3 de la tesis
 % de Sydney
 
 m0=1;                                       % definimos la magnetización empezando longitudinal
