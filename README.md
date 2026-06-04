@@ -15,7 +15,7 @@ El objetivo del trabajo es estudiar distintas estrategias de supresión de grasa
 
 Los códigos se han desarrollado principalmente en **MATLAB R2024b**.
 
-También se han empleado funciones externas relacionadas con simulaciones de Bloch y herramientas de reconstrucción/diseño de pulsos, como MIRT, cuando ha sido necesario para construir matrices del sistema o resolver problemas de optimización.
+También se han empleado funciones externas relacionadas con simulaciones de Bloch, como [Bloch Equation Simulator](http://mrsrl.stanford.edu/~brian/blochsim/), y herramientas de reconstrucción/diseño de pulsos, como [MIRT](https://github.com/JeffFessler/mirt), cuando ha sido necesario para construir matrices del sistema o resolver problemas de optimización. Además, se ha utilizado un [phantom digital](https://github.com/mribri999/MRSignalsSeqs) adaptado del repositorio MRSignalsSeqs.
 
 ## Técnicas estudiadas
 
