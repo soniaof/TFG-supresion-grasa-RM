@@ -396,7 +396,7 @@ if exist('factor_spsp', 'var') && exist('factor_chess', 'var') && ...
     % Guardar figura para el TFG
     exportgraphics(gcf, 'comparacion_CHESS_SPSP_B0.png', 'Resolution', 300);
 
-    % Mostrar resultados por consola
+    % Mostrar resultados 
     fprintf('\n=== Comparación final CHESS vs SPSP con B0 ===\n');
     fprintf('CHESS: supresión grasa = %.1f%% | cambio agua = %.1f%%\n', ...
         sup_chess_grasa, cambio_chess_agua);
@@ -419,7 +419,7 @@ if exist('B0map','var') && exist('imagen_chess','var') && exist('imagen_spsp','v
     sup_chess_grasa = 100 * (1 - s_chess_grasa / s_orig_grasa);
     sup_spsp_grasa  = 100 * (1 - s_spsp_grasa  / s_orig_grasa);
 
-    % Si quieres incluir también el cambio en agua:
+    % Si se quiere incluir también el cambio en agua:
     s_orig_agua   = mean(phantom(roi_interior));
     s_chess_agua  = mean(imagen_chess(roi_interior));
     s_spsp_agua   = mean(imagen_spsp(roi_interior));
